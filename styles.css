@@ -1,0 +1,26 @@
+body{
+  background-color: gray;
+  margin: 20px;
+  }
+
+  .main-content{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-row: 1fr 1fr 1fr;
+    width: 100%;
+
+  }
+
+  img{
+    height: 100px;
+    width: auto;
+  }
+
+  .block{
+    display: grid;
+    width: 90%;
+    height: auto;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+  }
